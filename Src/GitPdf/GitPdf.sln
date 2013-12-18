@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitPdf.Tests", "GitPdf.Tests\GitPdf.Tests.csproj", "{A89318F1-531C-4253-A6A9-5DE2CBBBACAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitPdf.Core", "GitPdf.Core\GitPdf.Core.csproj", "{8FB1B4CD-D269-44AA-97BE-B28BB5BA0072}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A89318F1-531C-4253-A6A9-5DE2CBBBACAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A89318F1-531C-4253-A6A9-5DE2CBBBACAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A89318F1-531C-4253-A6A9-5DE2CBBBACAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FB1B4CD-D269-44AA-97BE-B28BB5BA0072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB1B4CD-D269-44AA-97BE-B28BB5BA0072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB1B4CD-D269-44AA-97BE-B28BB5BA0072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB1B4CD-D269-44AA-97BE-B28BB5BA0072}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
