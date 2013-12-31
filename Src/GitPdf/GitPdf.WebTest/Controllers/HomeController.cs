@@ -53,7 +53,7 @@ namespace GitPdf.WebTest.Controllers
 
         public ActionResult ShowPdf()
         {
-            var pdfEndpoint = new PdfCreationEndpoint(new PdfFileCreator());
+            var pdfEndpoint = new PdfCreationEndpoint(new PdfFileCreator(), null);
 
             var pdf = pdfEndpoint.CreatePdf(_htmlString);
 
@@ -62,7 +62,7 @@ namespace GitPdf.WebTest.Controllers
 
         public ActionResult DownloadPdf()
         {
-            var pdfEndpoint = new PdfCreationEndpoint(new PdfFileCreator());
+            var pdfEndpoint = new PdfCreationEndpoint(new PdfFileCreator(), null);
 
             var pdf = pdfEndpoint.CreatePdf(_htmlString);
 

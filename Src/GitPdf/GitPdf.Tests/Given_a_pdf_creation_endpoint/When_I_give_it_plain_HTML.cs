@@ -23,7 +23,7 @@ namespace GitPdf.Tests.Given_a_pdf_creation_endpoint
             _pdfCreatorMock.Setup(pdf => pdf.CreatePdf(It.IsAny<string>()))
                 .Returns(_expectedResult);
 
-            _sut = new PdfCreationEndpoint(_pdfCreatorMock.Object);
+            _sut = new PdfCreationEndpoint(_pdfCreatorMock.Object, null);
         }
 
         protected override void Act()

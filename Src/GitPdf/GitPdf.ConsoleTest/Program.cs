@@ -7,7 +7,7 @@ namespace GitPdf.ConsoleTest
     {
         static void Main(string[] args)
         {
-            var pdfEndpoint = new PdfCreationEndpoint(new PdfFileCreator());
+            var pdfEndpoint = new PdfCreationEndpoint(new PdfFileCreator(), null);
 
             var pdf = pdfEndpoint.CreatePdf(@"<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
 <head>

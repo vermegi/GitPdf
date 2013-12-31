@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ICreatePdfFiles.cs" />
+    <Compile Include="ITransform.cs" />
     <Compile Include="PdfCreationEndpoint.cs" />
     <Compile Include="PdfFileCreator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
